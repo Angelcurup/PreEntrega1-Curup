@@ -1,0 +1,14 @@
+.nav header {
+    background: rgb(36, 35, 35);
+    max-width: 100%;
+    padding: 0px 6rem;
+}
+
+.nav a, p {
+    color: rgb(229, 236, 241);
+}
+
+.nav .btn {
+    background: rgb(129, 22, 252);
+    color: rgb(239, 243, 252);
+}
