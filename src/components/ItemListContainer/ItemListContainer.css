@@ -1,0 +1,16 @@
+.cards {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    padding: 60px;
+}
+
+.cardbody {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+}

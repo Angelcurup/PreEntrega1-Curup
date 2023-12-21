@@ -1,12 +1,10 @@
-import Nav from "./components/NavBarComponent/NavBarComponent";
-import ItemList from "./components/ItemListComponent/ItemListComponent";
+import { MainRouter } from "./router/MainRouter";
 
 function App() {
   return (
     <>
       <div>
-        <Nav />
-        <ItemList greeting="Hello welcome to my store!!" />
+        <MainRouter />
       </div>
     </>
   );
